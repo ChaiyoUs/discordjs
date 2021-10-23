@@ -18,7 +18,7 @@ client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
 
 	if (interaction.commandName === 'test') {
-		await interaction.reply({ content: 'Hello', ephemeral: true });
+		await interaction.reply({ content: 'Hello', ephemeral: true }); // At ephemeral you can run /test
 	}
 });
 
