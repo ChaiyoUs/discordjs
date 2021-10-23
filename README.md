@@ -8,7 +8,7 @@ Made by : https://youtu.be/iEtJxJCAG-Q
 - `1.` Run by use node index.js
 - `2.` Enter token in config.json in Discord deleopers
 - `3.` Try it by click run
-- `4.` Type {prefix}test
+- `4.` Type /test
 - `5.` If bot says "Ok" its means its work correctly
 #### How to install:
 - `1.` Run `npm i discord.js` and `npm i express` in Terminal
