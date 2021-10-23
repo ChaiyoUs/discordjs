@@ -4,7 +4,7 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
-	new SlashCommandBuilder().setName('test').setDescription('Enter description of slash command here!'),
+	new SlashCommandBuilder().setName('test').setDescription('Enter description of slash command here!(deploy commands.js)'),
 ]
 	.map(command => command.toJSON());
 
