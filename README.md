@@ -11,6 +11,6 @@ Made by : https://youtu.be/iEtJxJCAG-Q
 - `4.` Type /test
 - `5.` If bot says "Ok" its means its work correctly
 #### How to install:
-- `1.` Run `npm i discord.js` and `npm i express` in Terminal
+- `1.` Run `npm i discord.js express @discordjs/builders @discordjs/rest discord-api-types` in Terminal or run install.bat
 - `2.` Click run(repl.it) or run 
 - `3.` Now its work having fun!
