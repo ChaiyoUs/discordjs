@@ -1,3 +1,5 @@
 {
-    "token" : "DISCORD DELEOPERS BOT TOKEN"
+    "token": "DISCORD DELEOPERS BOT TOKEN",
+    "guildId": "SERVER ID IN A TEST SERVER",
+    "clientId": "BOT CLIENT ID"
 }
