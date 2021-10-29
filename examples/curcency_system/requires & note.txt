@@ -1,0 +1,8 @@
+1. install package by use `npm i discord.js@13.1.0 glob megadb`
+Soooo they did not have slash command because it too hard for me lol
+2. If u got `Error [DISALLOWED_INTENTS]: Privileged intent provided is not enabled or whitelisted.` error in command try to see how 2 fix in
+Fix.png
+3. Reading a code u can remake a bot 
+Note : u can run bot on this floder if u dont want to writing but u need 2 add cmds
+4. Prefix & token in config.json
+So yea slash command aren't work because its v.13.1

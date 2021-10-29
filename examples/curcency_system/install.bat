@@ -1,0 +1,1 @@
+npm i discord.js@13.1.0 glob megadb
