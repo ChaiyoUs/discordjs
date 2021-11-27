@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 8000;
-const { Client, Intents, MessageEmbed } = require('discord.js');
+const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-app.get('/' , (req,res) => res.send('${client.user.tag} Now online'))
-app.listen( port , () => 
-  console.log(`Your app is listening a http://localhost:${port}`)
+app.get('/', (req, res) => res.send('${client.user.tag} Now online'))
+app.listen(port, () =>
+	console.log(`Your app is listening a http://localhost:${port}`)
 );
 
 client.once('ready', () => {
