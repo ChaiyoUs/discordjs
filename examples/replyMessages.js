@@ -12,6 +12,6 @@ client.on('messageCreate', msg => {
     } else if (msg.content == '?hi') {
         msg.reply(`Hi! ${client.user.tag}`)
     } //Use the else if under if because it will error and use ; when you scripted all what do want
-}); 
+});
 
 client.login(token)
