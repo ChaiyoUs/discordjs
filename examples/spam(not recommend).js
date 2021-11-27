@@ -8,9 +8,10 @@ client.on('messageCreate', msg => {
             if (i !== 100) { // 100 is the amount of messages you want to spam
                 i++;
                 msg.reply(`SPAM`);
-            }
-            if (i == 100) {
-                clearInterval(loop); // stop spamming
+            } else if (i == 100) {
+                clearInterval(loop).then(() => {
+                    msg.reply('SPAM FINISHED');
+                }) // clear interval
             }
         }, 1000).ref(); //loop every 1 second
     }
